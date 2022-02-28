@@ -1,0 +1,129 @@
+main {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+}
+
+span {
+    color: white;
+    font-weight: 300;
+}
+
+hr {
+    width: 90%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(215, 51%, 70%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin-bottom: 2em;
+}
+
+.nftCard {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+    border-radius: 5%;
+}
+
+.nftImage {
+    width: 85%;
+    height: 85%;
+    margin-top: 2em;
+    border-radius: 5%;
+}
+
+.nftCardInfo {
+    color: hsl(215, 51%, 70%);
+    margin-left: 30px;
+    
+}
+
+.nftCardInfo p {
+    font-weight: 400;
+}
+
+.nftPriceInfo {
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+.nftPriceInfo img, p {
+    margin-right: 10px;
+}
+
+.price {
+    float: left;
+    color: hsl(178, 100%, 50%);
+    width: 50%;
+    font-weight: 400;
+}
+
+.time {
+    text-align: right;
+    float: right;
+    font-weight: 400;
+    margin-right: 25px;
+}
+
+.nftCardFooter {
+    color:hsl(215, 51%, 70%);
+    height: auto;
+    width: 100%;
+    
+}
+
+.creation {
+    margin-left: 20px;
+}
+
+.creation img {
+    display: inline;
+    height: 15%;
+    width: 15%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0;
+    vertical-align: center;
+}
+
+.creation p {
+    display: inline;
+    float: left;
+    margin-left: 0;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    color: white;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
