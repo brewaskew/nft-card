@@ -25,7 +25,7 @@ span {
 
 hr {
     width: 90%;
-    height: 1px;
+    
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1.5em;
@@ -72,20 +72,20 @@ hr {
 }
 
 .nftPriceInfo {
+    width: auto;
+    height: auto;
     margin-bottom: 1.5em;
     margin-top: 1.5em;
-    
 }
 
 .nftPriceInfo img, p {
     margin-right: 10px;
-    
 }
 
 .price {
     float: left;
     color: hsl(178, 100%, 50%);
-    width: 50%;
+    width: auto;
     font-weight: 400;
     
 }
@@ -95,6 +95,7 @@ hr {
     float: right;
     font-weight: 400;
     margin-right: 25px;
+    width: auto;
     
 }
 
@@ -142,15 +143,11 @@ hr {
 @media (max-height: 350px) {
     main {
         height: 100vh;
-        widht: 100vw;
+        width: 100vw;
     }
     .container {
         width: 25%;
-    }
-
-    .nftImage {
-        height: 40%;
-        widht: 40%;
+        height: auto;
     }
 
     h1 {
@@ -159,5 +156,9 @@ hr {
 
     p {
         font-size: 8px;
+    }
+
+    .nftPriceInfo img {
+        width: 10%;
     }
 }
