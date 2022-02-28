@@ -47,7 +47,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: auto;
     width: 75%;
     border-radius: 5%;
 }
@@ -55,7 +55,7 @@ hr {
 .nftImage {
     width: 85%;
     height: 85%;
-    margin-top: 2em;
+    margin-top: 1.5em;
     border-radius: 5%;
 }
 
